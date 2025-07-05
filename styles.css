@@ -51,12 +51,34 @@ h1 {
 #boxer { background-color: #F4511E; } /* Orange-red */
 #spar { background-color: #388E3C; } /* Green */
 
+/* Card Image Styles */
 .card-display {
     margin-top: 20px;
+    width: 100%;
 }
 
 #card-image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 100%; /* Full width on all screens */
+    height: auto;
     border-radius: 8px;
-    display: none; /* Hidden by default */
+    display: none;
+}
+
+/* Mobile Optimization */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        border-radius: 0;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+
+    #card-image {
+        border-radius: 0; /* Edge-to-edge on mobile */
+    }
+
+    body {
+        padding: 0; /* Remove body padding for full-screen */
+    }
 }
