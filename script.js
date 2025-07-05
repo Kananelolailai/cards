@@ -4,7 +4,7 @@ const cardImage = document.getElementById('card-image');
 
 // Define which image corresponds to which button
 const cardImages = {
-    shoprite: 'shoprite',
+    shoprite: 'shoprite.jpg',
     clicks: 'clicks.jpg',
     pnp: 'pnp.jpg',
     boxer: 'boxer.jpg',
