@@ -4,11 +4,11 @@ const cardImage = document.getElementById('card-image');
 
 // Define which image corresponds to which button
 const cardImages = {
-    shoprite: 'shoprite.jpg',
-    clicks: 'clicks.jpg',
-    pnp: 'pnp.jpg',
-    boxer: 'boxer.jpg',
-    spar: 'spar.jpg'
+    shoprite: 'shoprite.jpeg',
+    clicks: 'clicks.jpeg',
+    pnp: 'pnp.jpeg',
+    boxer: 'boxer.jpeg',
+    spar: 'spar.jpeg'
 };
 
 // Add click event to each button
