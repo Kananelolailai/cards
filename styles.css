@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.store-btn {
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.store-btn:hover {
+    opacity: 0.9;
+}
+
+#shoprite { background-color: #D32F2F; } /* Red */
+#clicks { background-color: #00796B; } /* Teal */
+#pnp { background-color: #283593; } /* Navy */
+#boxer { background-color: #F4511E; } /* Orange-red */
+#spar { background-color: #388E3C; } /* Green */
+
+.card-display {
+    margin-top: 20px;
+}
+
+#card-image {
+    max-width: 100%;
+    border-radius: 8px;
+    display: none; /* Hidden by default */
+}
